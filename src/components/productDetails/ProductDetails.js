@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from 'react';
 import { connect } from 'react-redux';
-import Header from '../header';
+// import Header from '../header';
 import ProductInfo from './ProductInfo';
 import './style.css';
 
@@ -33,7 +33,6 @@ class ProductDetails extends Component {
 		return (
 			<Fragment>
 
-				<Header />
 				<div className="container">
 					<div className="card">
 						<div className="container-fliud">

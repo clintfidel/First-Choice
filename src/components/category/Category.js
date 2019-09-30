@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from 'react';
 import './style.css';
-import Header from '../header';
+// import Header from '../header';
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux';
 
@@ -60,7 +60,7 @@ class Category extends Component {
 	 render() {
 		return (
 			<Fragment>
-				<Header />
+				{/* <Header /> */}
 				<div
 					onDragOver={(event)=>this.onDragOver(event)}
 					onDrop={(event)=>{this.onDrop(event)}}
