@@ -12,11 +12,9 @@ class ProductDetails extends Component {
 		let foundProducts = [];
 
 		products.forEach(product => {
-			console.log(products, 'all=')
 			const matchingProducts = product.products.filter(prdt => {
 				return prdt.id === parseInt(match.params.productId, 10)
 			});
-			console.log(matchingProducts, 'matchingProducts')
 			foundProducts = foundProducts.concat(matchingProducts);
 		});
 		 return foundProducts.map((prdt, index) => {

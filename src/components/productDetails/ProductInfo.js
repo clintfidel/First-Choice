@@ -3,7 +3,8 @@ import './style.css';
 
 const ProductInfo = ({ item }) => {
 	return (
-		<div key={item.id}>
+		<div
+			key={item.id}>
 			<p className="product-title">{item.name}</p>
 			<p className="product-details">
 				{item.description}

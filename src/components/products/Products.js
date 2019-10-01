@@ -1,8 +1,6 @@
 import React, { Fragment, Component } from 'react';
-import Header from '../header';
 import { connect } from 'react-redux';
 import './styles.css';
-import ProductView from './ProductView';
 class ProductPage extends Component {
 
 	displayProducts = () => {
@@ -16,18 +14,30 @@ class ProductPage extends Component {
 
 
 		return foundProducts.map((prdt, index) => (
-			<ProductView
-				item={prdt}
-				key={prdt.id}
-				index={index} 
-				/>
-		));
+			<div className="container">
+			<div className="row" style={{display: "flex"}}>
+				<div className="col-xs-18 col-sm-6 col-md-3">
+					<div
+						className="thumbnail"
+					>
+						<img src={prdt.images[0]} alt="" />
+						<div
+							onClick={this.props.history.push(`/product-details/${prdt.id}`)}  
+							key={index} className="caption">
+							<h3>{prdt.name}</h3>
+							<h4>{prdt.price}</h4>
+							<h5>{prdt.description}</h5>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		))
 	}
 
 	render() {
 		return (
 			<Fragment>
-				<Header />
 				<div className="row"> 
 					{this.displayProducts()}
 				</div>
