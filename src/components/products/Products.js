@@ -13,35 +13,57 @@ class ProductPage extends Component {
 		});
 
 
-		return foundProducts.map((prdt, index) => (
-			<div className="container">
-			<div className="row" style={{display: "flex"}}>
-				<div className="col-xs-18 col-sm-6 col-md-3">
+		return foundProducts.map((prdt, index) => {
+			return (
+				<div
+					key={prdt.id}
+					className="thumbnail"
+				>
+					<img src={prdt.images[0]} alt="" />
 					<div
-						className="thumbnail"
-					>
-						<img src={prdt.images[0]} alt="" />
-						<div
-							onClick={this.props.history.push(`/product-details/${prdt.id}`)}  
-							key={index} className="caption">
-							<h3>{prdt.name}</h3>
-							<h4>{prdt.price}</h4>
-							<h5>{prdt.description}</h5>
-						</div>
+						onClick={() => this.props.history.push(`/product-details/${prdt.id}`)}
+						 className="caption">
+						<h3>{prdt.name}</h3>
+						<h4>{prdt.price}</h4>
+						<h5>{prdt.description}</h5>
 					</div>
 				</div>
-				</div>
-			</div>
-		))
+
+
+			)
+		})
 	}
 
 	render() {
 		return (
-			<Fragment>
-				<div className="row"> 
-					{this.displayProducts()}
+			<div className="container">
+				<div className="row" style={{ display: "flex" }}>
+					<div className="col-xs-18 col-sm-6 col-md-3">
+						{this.displayProducts()}
+					</div>
 				</div>
-			</Fragment>
+			</div>
+		// 	<div className="container">
+		// 	{this.state.productList.map((prdt, index) => (
+		// 		<div className="row" style={{ display: "flex" }}>
+		// 			<div className="col-xs-18 col-sm-6 col-md-3">
+		// 				<div
+		// 					className="thumbnail"
+		// 				>
+		// 					<img src={prdt.images[0]} alt="" />
+		// 					<div
+		// 						onClick={() => this.props.history.push(`/product-details/${prdt.id}`)}
+		// 						key={prdt.id} className="caption">
+		// 						<h3>{prdt.name}</h3>
+		// 						<h4>{prdt.price}</h4>
+		// 						<h5>{prdt.description}</h5>
+		// 					</div>
+		// 				</div>
+		// 			</div>
+		// 		</div>
+		// 	))
+		// 	}
+		// </div>
 		)
 	}
 

@@ -7,7 +7,6 @@ import './style.css';
 class ProductDetails extends Component {
 
 	displayProductDetails = () => {
-		console.log('i got called')
 		const { products, match } = this.props;
 		let foundProducts = [];
 

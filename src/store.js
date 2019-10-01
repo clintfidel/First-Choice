@@ -10,7 +10,7 @@ function loadFromLocalStorage() {
   
       return JSON.parse(serializedState);
     } catch (e) {
-      console.log(e);
+      console.error(e);
   
       return undefined;
     }
