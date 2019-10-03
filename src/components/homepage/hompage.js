@@ -7,7 +7,7 @@ const Homepage = () => {
     <Fragment>
       <div className="homepage"> 
       <button>
-        <Link to="/product-category">
+        <Link to="/product-category/">
           Click me to choose a category
       </Link>
       </button>

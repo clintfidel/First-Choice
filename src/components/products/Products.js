@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './styles.css';
 class ProductPage extends Component {
@@ -17,11 +17,11 @@ class ProductPage extends Component {
 			return (
 				<div
 					key={prdt.id}
-					className="thumbnail"
+					className="thumbnail col-xs-18 col-sm-6 col-md-3"
 				>
-					<img src={prdt.images[0]} alt="" />
+					<img className = "img-fluid img-responsive" src={prdt.images[0]} alt="" />
 					<div
-						onClick={() => this.props.history.push(`/product-details/${prdt.id}`)}
+						onClick={() => this.props.history.push(`/product-details/${prdt.id}/`)}
 						 className="caption">
 						<h3>{prdt.name}</h3>
 						<h4>{prdt.price}</h4>
@@ -37,8 +37,8 @@ class ProductPage extends Component {
 	render() {
 		return (
 			<div className="container">
-				<div className="row" style={{ display: "flex" }}>
-					<div className="col-xs-18 col-sm-6 col-md-3">
+				<div className="row">
+					<div className="">
 						{this.displayProducts()}
 					</div>
 				</div>

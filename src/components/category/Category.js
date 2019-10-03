@@ -1,82 +1,59 @@
-import React, { Fragment, Component } from 'react';
-import './style.css';
+import React, { Fragment, Component } from "react";
+import "./style.css";
+// import {SortableContainer, SortableElement} from 'react-sortable-hoc';
+import RLDD from "react-list-drag-and-drop/lib/RLDD";
+
 // import Header from '../header';
-import { Link } from 'react-router-dom'
-import { connect } from 'react-redux';
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 
 class Category extends Component {
-	state = {
-			productsCategories: [
-				{name: '', id: '1'},
-				],
-				draggedCategories: []
-	}
+  state = {
+    products: this.props.products || [],
+    draggedCategories: []
+  };
 
+  handleRLDDChange = newItems => {
+    this.setState({ products: newItems });
+  };
+  //  SortableItem = SortableElement(({value}) => <div className="notice notice-lg draggable">
+  //   <Link to={`/product/${value.id}`}>{value.name}</Link></div>);
 
-	 onDrag = (event, category) => {
-		event.preventDefault();
-  this.setState({
-    draggedCategories: category
-  });
-}
+  // SortableList = SortableContainer(({items}) => {
+  //   return (
+  //     <div>
+  //       {items.map((value, index) => (
+  //         <SortableItem key={`item-${value.id}`} index={index} value={value} />
+  //       ))}
+  //     </div>
+  //   );
+  // });
 
-	onDragOver = (event) => {
-		event.preventDefault();
-}
+  // onSortEnd = ({oldIndex, newIndex}) => {
+  //   this.setState(({products}) => ({
+  //     products: arrayMove(products, oldIndex, newIndex),
+  //   }));
+  // };
 
-	onDrop = (event, pos) => {
-	 const { productsCategories, draggedCategories } = this.state;
-
-	 let categories = productsCategories.filter((category) => {
-			 if (category.id === draggedCategories.id) {
-				 return draggedCategories;
-			 }
-	 });
-
-	this.setState({ productsCategories: [...productsCategories, categories]})
-	}
-
-	dragAndDropCategories = () => {
-		const { products } = this.props;
-		 return products.length > 0 && products.map((category, index) => {
-				return (
-					<div
-						key={category.id} 
-						onDrag = {(event) => this.onDrag(event, category)}
-						onDrop = {(event) => this.onDrop(event, index)}
-
-						draggable
-						className="notice notice-lg draggable"
-					>
-						<Link to={`/product/${category.id}`}>
-							{category.name}
-            </Link>
-					
-    		</div>
-				)
-		 })
-	 }
-
-	 render() {
-		return (
-			<Fragment>
-				{/* <Header /> */}
-				<div
-					onDragOver={(event)=>this.onDragOver(event)}
-					onDrop={(event)=>{this.onDrop(event)}}
-					className="container">
-					
-					{this.dragAndDropCategories()}
-				
-				</div>
-			</Fragment>
-		)
-	 }
-	
+  render() {
+    return (
+      <RLDD
+        items={this.state.products}
+        itemRenderer={item => {
+          return (
+            <div className="notice notice-lg">
+              <Link to={`/product/${item.id}`}>{item.name}</Link>
+            </div>
+          );
+        }}
+        onChange={this.handleRLDDChange}
+      />
+    );
+  }
 }
 
 const mapStateToProps = state => ({
-  products: state.productsList.products,
+  products: state.productsList.products
 });
 
 export default connect(mapStateToProps)(Category);
