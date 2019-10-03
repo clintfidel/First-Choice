@@ -6,7 +6,7 @@ import "./style.css";
 
 class ProductDetails extends Component {
   state = {
-    currentImage: "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"
+    currentImage: ""
   };
 
   displayProductDetails = () => {
@@ -24,33 +24,59 @@ class ProductDetails extends Component {
     });
   };
 
+   getFirstImage = ''
+
   handleClickImage = imageUrl => {
     this.setState({
       currentImage: imageUrl
     });
   };
 
+  getProduct(products, productId) {
+    console.log(products, productId)
+    for (let i = 0; i < products.length; i++) {
+      for (let j = 0; j < products[i].products.length; j++) {
+        if (products[i].products[j].id === productId) {
+          return products[i].products[j];
+        }
+      }
+    }
+  }
+
+  componentDidMount () {
+    let foundProduct = this.getProduct(this.props.products, parseInt(this.props.match.params.productId, 10));
+    this.setState({
+      currentImage: foundProduct.images[0]
+    });
+  }
+
   smallImage = () => {
-    let foundProduct = [];
-    return this.props.products.map(product => {
-      const productMatch = product.products.filter(product => {
-       return product.id === this.props.match.params.productId
-      })
-        foundProduct = productMatch;
-        return foundProduct.map((image, index) => {
-          console.log(image, '======>>>>>')
-          return (
-            <li
-              key={index} 
-              onClick={() => this.handleClickImage(image)} className="">
-              <img src={image} alt="" />
-            </li>
-          );
-        });
+    let foundProduct = this.getProduct(this.props.products, parseInt(this.props.match.params.productId, 10));
+    // this.props.products.forEach(product => {
+    //   const productMatch = product.products.filter(product => {
+    //     return product.id === parseInt(this.props.match.params.productId, 10);
+    //   });
+      // foundProduct = productMatch;
+
+    // });
+    
+
+    console.log(foundProduct, '==.====>>>>>')
+    return foundProduct.images.map((image, index) => {
+      return (
+        <li
+          key={index}
+          onClick={() => this.handleClickImage(image)}
+          className="tab-pane"
+        >
+          <img src={image} alt="" />
+        </li>
+      );
     });
   };
 
   render() {
+    let small = this.smallImage();
     return (
       <Fragment>
         <div className="container">
@@ -58,13 +84,13 @@ class ProductDetails extends Component {
             <div className="container-fliud">
               <div className="wrapper row">
                 <div className="preview col-md-6">
-                  <div className="preview-pic tab-content">
+                  <div className="preview">
                     <div className="tab-pane">
                       <img src={this.state.currentImage} alt="" />
                     </div>
                   </div>
                   <ul className="preview-thumbnail nav nav-tabs">
-                    {this.smallImage()}
+                    {small}
                   </ul>
                 </div>
                 <div className="details col-md-6">
