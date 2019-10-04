@@ -1,10 +1,10 @@
-import axios from 'axios';
-import { GET_PRODUCT_AND_CATEGORY } from './types'
+import axios from "axios";
+import { GET_PRODUCT_AND_CATEGORY } from "./types";
 
 export const getAllproductsAndCategory = () => dispatch =>
-  axios.get('/mockData.json')
-    .then((response) => {
-      console.log('Hell world')
+  axios
+    .get("/mockData.json")
+    .then(response => {
       dispatch({
         type: GET_PRODUCT_AND_CATEGORY,
         product: response.data
@@ -12,9 +12,8 @@ export const getAllproductsAndCategory = () => dispatch =>
     })
     .catch(error => console.error(error));
 
-    export const setCategoryIndex = (newItem) => dispatch =>
-        dispatch({
-          type: GET_PRODUCT_AND_CATEGORY,
-          product: newItem
-      })
-  
+export const setCategoryIndex = newItem => dispatch =>
+  dispatch({
+    type: GET_PRODUCT_AND_CATEGORY,
+    product: newItem
+  });
