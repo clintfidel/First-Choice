@@ -1,0 +1,51 @@
+.product-cards {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.thumbnail {
+  height: 357px;
+  width: 240px;
+  margin: 4% 2%;
+  cursor: pointer;
+}
+
+.thumbnail .caption {
+  padding: 13% 3px 8px 3px;
+  color: #333;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.thumbnail > img,
+.thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+  height: 170px;
+}
+
+@media only screen and (max-width: 600px) {
+  .thumbnail {
+    margin: 4% 17%;
+  }
+}

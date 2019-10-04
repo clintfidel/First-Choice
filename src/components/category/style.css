@@ -1,11 +1,19 @@
 .notice {
-    padding: 19px 0 19px 5%;
-    background-color: #fafafa;
-    border-radius: 3px;
-    margin: 4% 18% 15px 18%;
-    font-weight: 500;
-    font-size: 24px;
-    -webkit-box-shadow: 2px 3px 2px 2px rgba(0,0,0,.2);
-       -moz-box-shadow: 2px 3px 2px 2px rgba(0,0,0,.2);
-            box-shadow: 2px 3px 2px 2px rgba(0,0,0,.2);
+  padding: 11px 0 11px 3%;
+  background-color: #fafafa;
+  border-radius: 2px;
+  text-decoration: none;
+  margin: 1% 35% 0 35%;
+  font-weight: 500;
+  font-size: 24px;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 600px) {
+  .notice {
+    margin: 6% 23% 5% 23%;
+    padding: 13px 0 13px 3%;
+  }
 }
