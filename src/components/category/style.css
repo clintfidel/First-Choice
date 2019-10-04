@@ -13,6 +13,8 @@
 }
 @media only screen and (max-width: 600px) {
     .notice {
-        margin: 4% 23% 7% 23%;
+        margin: 6% 23% 5% 23%;
+        padding: 13px 0 13px 3%;
+
     }
   }

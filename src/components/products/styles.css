@@ -44,3 +44,9 @@ h5 {
   margin-left: auto;
   height: 170px;
 }
+
+@media only screen and (max-width: 600px) {
+  .thumbnail {
+    margin: 4% 17%;
+  }
+}
