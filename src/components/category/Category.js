@@ -44,7 +44,7 @@ class Category extends Component {
   render() {
     return (
       <RLDD
-        items={this.props.products}
+        items={this.state.products}
         itemRenderer={item => {
           return (
             <div className="notice notice-lg">
