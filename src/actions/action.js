@@ -11,3 +11,10 @@ export const getAllproductsAndCategory = () => dispatch =>
       });
     })
     .catch(error => console.error(error));
+
+    export const setCategoryIndex = (newItem) => dispatch =>
+        dispatch({
+          type: GET_PRODUCT_AND_CATEGORY,
+          product: newItem
+      })
+  

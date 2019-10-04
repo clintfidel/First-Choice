@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from "react";
 import { connect } from "react-redux";
-import { getAllproductsAndCategory } from '../../actions/action'
+import { getAllproductsAndCategory } from "../../actions/action";
 import ProductInfo from "./ProductInfo";
 import "./style.css";
 
@@ -31,7 +31,7 @@ class ProductDetails extends Component {
   };
 
   getProduct(products, productId) {
-    console.log(products, productId)
+    console.log(products, productId);
     for (let i = 0; i < products.length; i++) {
       for (let j = 0; j < products[i].products.length; j++) {
         if (products[i].products[j].id === productId) {
@@ -43,8 +43,11 @@ class ProductDetails extends Component {
 
   async componentDidMount() {
     await this.props.getAllproductsAndCategory();
-    if(this.props.products.length){
-      let foundProduct = this.getProduct(this.props.products, parseInt(this.props.match.params.productId, 10));
+    if (this.props.products.length) {
+      let foundProduct = this.getProduct(
+        this.props.products,
+        parseInt(this.props.match.params.productId, 10)
+      );
       this.setState({
         currentImage: foundProduct.images[0]
       });
@@ -53,22 +56,25 @@ class ProductDetails extends Component {
 
   smallImage = () => {
     let foundProduct;
-    if(this.props.products.length){
-       foundProduct = this.getProduct(this.props.products, parseInt(this.props.match.params.productId, 10)); 
-
-    return foundProduct.images.map((image, index) => {
-      return (
-        <li
-          key={index}
-          onClick={() => this.handleClickImage(image)}
-          className="tab-pane"
-        >
-          <img className="small-image" src={image} alt="" />
-        </li>
+    if (this.props.products.length) {
+      foundProduct = this.getProduct(
+        this.props.products,
+        parseInt(this.props.match.params.productId, 10)
       );
-    });
-  }
-};
+
+      return foundProduct.images.map((image, index) => {
+        return (
+          <li
+            key={index}
+            onClick={() => this.handleClickImage(image)}
+            className="tab-pane"
+          >
+            <img className="small-image" src={image} alt="" />
+          </li>
+        );
+      });
+    }
+  };
 
   render() {
     let small = this.smallImage();
@@ -84,9 +90,7 @@ class ProductDetails extends Component {
                       <img src={this.state.currentImage} alt="" />
                     </div>
                   </div>
-                  <ul className="preview-thumbnail nav nav-tabs">
-                    {small}
-                  </ul>
+                  <ul className="preview-thumbnail nav nav-tabs">{small}</ul>
                 </div>
                 <div className="details col-md-6">
                   {this.displayProductDetails()}
@@ -112,4 +116,7 @@ const mapStateToProps = state => ({
   products: state.productsList.products
 });
 
-export default connect(mapStateToProps, {getAllproductsAndCategory})(ProductDetails);
+export default connect(
+  mapStateToProps,
+  { getAllproductsAndCategory }
+)(ProductDetails);

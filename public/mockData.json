@@ -12,9 +12,9 @@
         "images": [
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
-           "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
-           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-          ]
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+          "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
+        ]
       },
       {
         "id": 2,
@@ -27,7 +27,7 @@
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 3,
@@ -40,7 +40,7 @@
           "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 4,
@@ -48,11 +48,12 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "1",
-        "images": ["https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
+        "images": [
+          "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 5,
@@ -60,11 +61,12 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "1",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 6,
@@ -72,35 +74,38 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "1",
-        "images": ["https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
+        "images": [
+          "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
-        },
+        ]
+      },
       {
         "id": 7,
         "name": "Amani Bag",
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "1",
-        "images": ["https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
+        "images": [
+          "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
-        },
+        ]
+      },
       {
         "id": 8,
         "name": "Amani Bag",
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       }
     ]
   },
@@ -114,23 +119,25 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "2",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
-        },
+        ]
+      },
       {
         "id": 12,
         "name": "Amani Bag",
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "2",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 13,
@@ -138,31 +145,35 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "2",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
-        },
+        ]
+      },
       {
         "id": 14,
         "name": "Amani Bag",
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "2",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
-        },
+        ]
+      },
       {
         "id": 15,
         "name": "Amani Bag",
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "2",
-        "images": ["http://www.charlesclinkard.co.uk/blog/wp-content/uploads/2016/02/Peter-kaiser-occasion-shoes-and-matching-bags.jpg"]
+        "images": [
+          "http://www.charlesclinkard.co.uk/blog/wp-content/uploads/2016/02/Peter-kaiser-occasion-shoes-and-matching-bags.jpg"
+        ]
       },
       {
         "id": 16,
@@ -170,35 +181,38 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "2",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
-        },
+        ]
+      },
       {
         "id": 17,
         "name": "Amani Bag",
         "price": "$4500",
         "description": "Amani Bag",
         "categoryId": "2",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
-        },
+        ]
+      },
       {
         "id": 18,
         "name": "Amani Bag",
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "2",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       }
     ]
   },
@@ -212,11 +226,12 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "3",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 22,
@@ -224,11 +239,12 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "3",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 23,
@@ -236,11 +252,12 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "3",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 24,
@@ -248,7 +265,9 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "3",
-        "images": ["https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"]
+        "images": [
+          "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
+        ]
       },
       {
         "id": 25,
@@ -256,23 +275,25 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "3",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
-        },
+        ]
+      },
       {
         "id": 26,
         "name": "Amani Bag",
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "3",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 27,
@@ -280,11 +301,12 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "3",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 28,
@@ -292,11 +314,12 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "3",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       }
     ]
   },
@@ -310,23 +333,25 @@
         "price": "$4500",
         "description": "The best bag ypu can think of having.The best bag ypu can think of having.",
         "categoryId": "4",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 32,
         "name": "Amani Bag",
-        "price":"$4500",
+        "price": "$4500",
         "description": "Amani Bag",
         "categoryId": "4",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70",
           "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687",
           "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
-         ]
+        ]
       },
       {
         "id": 33,
@@ -334,7 +359,9 @@
         "price": "$4500",
         "description": "Amani Bag",
         "categoryId": "4",
-        "images": ["http://www.charlesclinkard.co.uk/blog/wp-content/uploads/2016/02/Peter-kaiser-occasion-shoes-and-matching-bags.jpg"]
+        "images": [
+          "http://www.charlesclinkard.co.uk/blog/wp-content/uploads/2016/02/Peter-kaiser-occasion-shoes-and-matching-bags.jpg"
+        ]
       },
       {
         "id": 34,
@@ -342,7 +369,9 @@
         "price": "$4500",
         "description": "Amani Bag",
         "categoryId": "4",
-        "images": ["https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg"]
+        "images": [
+          "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg"
+        ]
       },
       {
         "id": 35,
@@ -350,7 +379,9 @@
         "price": "$4500",
         "description": "Amani Bag",
         "categoryId": "4",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"]
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"
+        ]
       },
       {
         "id": 36,
@@ -358,7 +389,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "4",
-        "images": ["https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"]
+        "images": [
+          "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
+        ]
       },
       {
         "id": 37,
@@ -366,7 +399,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "4",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"]
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"
+        ]
       },
       {
         "id": 38,
@@ -374,7 +409,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "4",
-        "images": ["https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg"]
+        "images": [
+          "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg"
+        ]
       }
     ]
   },
@@ -388,7 +425,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "5",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"]
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"
+        ]
       },
       {
         "id": 42,
@@ -396,7 +435,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "5",
-        "images": ["http://www.charlesclinkard.co.uk/blog/wp-content/uploads/2016/02/Peter-kaiser-occasion-shoes-and-matching-bags.jpg"]
+        "images": [
+          "http://www.charlesclinkard.co.uk/blog/wp-content/uploads/2016/02/Peter-kaiser-occasion-shoes-and-matching-bags.jpg"
+        ]
       },
       {
         "id": 43,
@@ -404,7 +445,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "5",
-        "images": ["https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"]
+        "images": [
+          "https://cdn.shopify.com/s/files/1/0935/7708/products/Gucci_322483_Oiled_Suede_Oxfords_Red_11-4-16__281_29.jpg?v=1479771687"
+        ]
       },
       {
         "id": 44,
@@ -412,7 +455,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "5",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"]
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"
+        ]
       },
       {
         "id": 45,
@@ -420,7 +465,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "5",
-        "images": ["https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg"]
+        "images": [
+          "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg"
+        ]
       },
       {
         "id": 46,
@@ -428,7 +475,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "5",
-        "images": ["http://www.charlesclinkard.co.uk/blog/wp-content/uploads/2016/02/Peter-kaiser-occasion-shoes-and-matching-bags.jpg"]
+        "images": [
+          "http://www.charlesclinkard.co.uk/blog/wp-content/uploads/2016/02/Peter-kaiser-occasion-shoes-and-matching-bags.jpg"
+        ]
       },
       {
         "id": 47,
@@ -436,7 +485,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "5",
-        "images": ["https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg"]
+        "images": [
+          "https://images-na.ssl-images-amazon.com/images/I/71KHQyQLy6L._UY395_.jpg"
+        ]
       },
       {
         "id": 48,
@@ -444,7 +495,9 @@
         "price": "Amani Bag",
         "description": "Amani Bag",
         "categoryId": "5",
-        "images": ["https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"]
+        "images": [
+          "https://rukminim1.flixcart.com/image/832/832/jd0jtzk0/shoe/a/h/y/true10-blue-7-walkjump-blue-original-imaf2yzfgfz5qamg.jpeg?q=70"
+        ]
       }
     ]
   }
