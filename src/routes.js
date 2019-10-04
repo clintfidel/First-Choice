@@ -5,7 +5,6 @@ import ProductPage from './components/products';
 import ProductDetails from './components/productDetails';
 import Footer from './components/footer';
 import Header from './components/header';
-
 import Homepage from './components/homepage';
 
 
@@ -13,7 +12,6 @@ const Routes = () => {
 	return (
 		<Fragment>
 			<Header />
-
 			<Router>
 				<Switch>
 				<Route path="/" exact component={Homepage} />

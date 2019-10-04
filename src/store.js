@@ -1,31 +1,16 @@
 import { createStore, applyMiddleware, compose } from "redux";
 import thunkMiddleware from "redux-thunk";
+import logger from 'redux-logger'
+
 import rootReducer from './reducers';
 
-function loadFromLocalStorage() {
-    try {
-      const serializedState = localStorage.getItem("state");
-  
-      if (serializedState === null) return undefined;
-  
-      return JSON.parse(serializedState);
-    } catch (e) {
-      console.error(e);
-  
-      return undefined;
-    }
-  }
-  
-  const persistedState = loadFromLocalStorage();
-  
   /**
    * Create a Redux store that holds the app state.
    */
   const store = createStore(
     rootReducer,
-    persistedState,
     compose(
-      applyMiddleware(thunkMiddleware),
+      applyMiddleware(thunkMiddleware, logger),
   
       //For working redux dev tools in chrome (https://github.com/zalmoxisus/redux-devtools-extension)
       window.__REDUX_DEVTOOLS_EXTENSION__

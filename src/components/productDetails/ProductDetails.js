@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from "react";
 import { connect } from "react-redux";
-// import Header from '../header';
+import { getAllproductsAndCategory } from '../../actions/action'
 import ProductInfo from "./ProductInfo";
 import "./style.css";
 
@@ -24,8 +24,6 @@ class ProductDetails extends Component {
     });
   };
 
-   getFirstImage = ''
-
   handleClickImage = imageUrl => {
     this.setState({
       currentImage: imageUrl
@@ -43,25 +41,21 @@ class ProductDetails extends Component {
     }
   }
 
-  componentDidMount () {
-    let foundProduct = this.getProduct(this.props.products, parseInt(this.props.match.params.productId, 10));
-    this.setState({
-      currentImage: foundProduct.images[0]
-    });
+  async componentDidMount() {
+    await this.props.getAllproductsAndCategory();
+    if(this.props.products.length){
+      let foundProduct = this.getProduct(this.props.products, parseInt(this.props.match.params.productId, 10));
+      this.setState({
+        currentImage: foundProduct.images[0]
+      });
+    }
   }
 
   smallImage = () => {
-    let foundProduct = this.getProduct(this.props.products, parseInt(this.props.match.params.productId, 10));
-    // this.props.products.forEach(product => {
-    //   const productMatch = product.products.filter(product => {
-    //     return product.id === parseInt(this.props.match.params.productId, 10);
-    //   });
-      // foundProduct = productMatch;
+    let foundProduct;
+    if(this.props.products.length){
+       foundProduct = this.getProduct(this.props.products, parseInt(this.props.match.params.productId, 10)); 
 
-    // });
-    
-
-    console.log(foundProduct, '==.====>>>>>')
     return foundProduct.images.map((image, index) => {
       return (
         <li
@@ -69,11 +63,12 @@ class ProductDetails extends Component {
           onClick={() => this.handleClickImage(image)}
           className="tab-pane"
         >
-          <img src={image} alt="" />
+          <img className="small-image" src={image} alt="" />
         </li>
       );
     });
-  };
+  }
+};
 
   render() {
     let small = this.smallImage();
@@ -117,4 +112,4 @@ const mapStateToProps = state => ({
   products: state.productsList.products
 });
 
-export default connect(mapStateToProps)(ProductDetails);
+export default connect(mapStateToProps, {getAllproductsAndCategory})(ProductDetails);

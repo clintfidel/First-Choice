@@ -3,10 +3,17 @@
     right: 0;
     left: 0;
     bottom: 0;
-    padding-top: 5%;
-    height: 17%;
+    padding: 5% 0;
+    height: 27%;
     font-size: 15px;
     margin-bottom: 0;
-    background-color: #efefef;
+    background-color: #D4D4D4;
     text-align: center;
+    margin-top: 7%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .footer {
+      margin-top: 15%;
+    }
   }

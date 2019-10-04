@@ -6,11 +6,10 @@ import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import store from './store';
 
-import { getAllproductsAndCategory } from './actions/action';
+// import { getAllproductsAndCategory } from './actions/action';
 
-// const store = configureStore();
 
-store.dispatch(getAllproductsAndCategory());
+// store.dispatch(getAllproductsAndCategory());
 
 ReactDOM.render(
     <Provider store={store}>

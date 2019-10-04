@@ -1,18 +1,24 @@
-import React, { Fragment, Component } from "react";
+import React, { Component } from "react";
 import "./style.css";
-// import {SortableContainer, SortableElement} from 'react-sortable-hoc';
 import RLDD from "react-list-drag-and-drop/lib/RLDD";
 
-// import Header from '../header';
+import { getAllproductsAndCategory } from '../../actions/action'
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 class Category extends Component {
-  state = {
-    products: this.props.products || [],
-    draggedCategories: []
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      products: this.props.products || [],
+      draggedCategories: []
+    };  
+  }
 
+   componentDidMount() {
+     this.props.getAllproductsAndCategory();
+  }
+  
   handleRLDDChange = newItems => {
     this.setState({ products: newItems });
   };
@@ -38,7 +44,7 @@ class Category extends Component {
   render() {
     return (
       <RLDD
-        items={this.state.products}
+        items={this.props.products}
         itemRenderer={item => {
           return (
             <div className="notice notice-lg">
@@ -56,4 +62,4 @@ const mapStateToProps = state => ({
   products: state.productsList.products
 });
 
-export default connect(mapStateToProps)(Category);
+export default connect(mapStateToProps, {getAllproductsAndCategory})(Category);

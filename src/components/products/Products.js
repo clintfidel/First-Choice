@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { getAllproductsAndCategory } from '../../actions/action'
 import './styles.css';
 class ProductPage extends Component {
 
+		componentDidMount = () => {
+			this.props.getAllproductsAndCategory();
+		}
 	displayProducts = () => {
 		const { products, match } = this.props;
 		let foundProducts = [];
@@ -16,12 +20,12 @@ class ProductPage extends Component {
 		return foundProducts.map((prdt, index) => {
 			return (
 				<div
+					onClick={() => this.props.history.push(`/product-details/${prdt.id}/`)}
 					key={prdt.id}
-					className="thumbnail col-xs-18 col-sm-6 col-md-3"
+					className="thumbnail col-xs-6 col-sm-4"
 				>
 					<img className = "img-fluid img-responsive" src={prdt.images[0]} alt="" />
 					<div
-						onClick={() => this.props.history.push(`/product-details/${prdt.id}/`)}
 						 className="caption">
 						<h3>{prdt.name}</h3>
 						<h4>{prdt.price}</h4>
@@ -43,27 +47,6 @@ class ProductPage extends Component {
 					</div>
 				</div>
 			</div>
-		// 	<div className="container">
-		// 	{this.state.productList.map((prdt, index) => (
-		// 		<div className="row" style={{ display: "flex" }}>
-		// 			<div className="col-xs-18 col-sm-6 col-md-3">
-		// 				<div
-		// 					className="thumbnail"
-		// 				>
-		// 					<img src={prdt.images[0]} alt="" />
-		// 					<div
-		// 						onClick={() => this.props.history.push(`/product-details/${prdt.id}`)}
-		// 						key={prdt.id} className="caption">
-		// 						<h3>{prdt.name}</h3>
-		// 						<h4>{prdt.price}</h4>
-		// 						<h5>{prdt.description}</h5>
-		// 					</div>
-		// 				</div>
-		// 			</div>
-		// 		</div>
-		// 	))
-		// 	}
-		// </div>
 		)
 	}
 
@@ -73,4 +56,4 @@ const mapStateToProps = state => ({
 	products: state.productsList.products,
 });
 
-export default connect(mapStateToProps)(ProductPage);
+export default connect(mapStateToProps, { getAllproductsAndCategory })(ProductPage);
